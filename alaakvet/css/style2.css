@@ -1,0 +1,201 @@
+*{margin: 0; padding: 0; border: 0;}
+
+body {
+    position: relative; 
+}
+
+header {
+}
+
+div {
+	margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+}
+
+
+.parallax {
+	color: #FF8500;
+	position: relative;
+	opacity: 0.90;
+	/* The image used */
+	background-image: url('../image/48.jpg');
+	/* Full height */
+	height: 50%; 
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+/* Turn off parallax scrolling for tablets and phones. Increase the pixels if needed */
+@media only screen and (max-device-width: 300px) {
+	.parallax {
+	background-attachment: scroll;
+	}
+}
+
+.caption span.border {
+	background-color: #111;
+	color: #fff;
+	padding: 18px;
+	font-size: 25px;
+	letter-spacing: 10px;
+}
+
+
+.container1 {
+	padding: 0;
+	border: 0;
+	margin: 0;
+}
+
+.overlay {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	transition: .5s ease-in-out;
+	-webkit-transition: .5s ease-in-out;
+	background-color: #F58220;
+	
+}
+
+.container1:hover .overlay , .container1:focus .overlay{
+	opacity: 0.92;
+}
+
+.text{
+	color: #fff;
+	font-size: 30px;
+	font-weight: bold;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	-ms-transform:translate(-50%,-50%);
+}
+
+.servicios {
+
+}
+
+.servicios h1 {
+
+	border-bottom: 6px;
+	border-bottom-style: solid; 
+	border-bottom-color: #0091A0; 
+}
+
+/*--- dospace mosaic-----*/
+/*.dospace {
+	margin: 0;
+    padding: 0;
+    border: 0;
+
+
+}
+
+.dospace .bottom {
+}
+
+.bottom ul {
+	padding: 0;
+	margin: 0;
+}
+.bottom {
+
+
+}
+
+.bottom .list-inline-item {
+	display: inline-block;
+}
+
+.bottom li {
+	height: 350px;
+	width: 100%;
+	display: block;
+	padding: 0;
+
+
+}
+#button1 {
+	background :url('https://www.dospace.org/wp-content/uploads/2017/06/3d-printing-ihear-e1504203289237.jpg') no-repeat top center; 
+	-webkit-background-size: cover; 
+	background-size: cover; 
+}
+#button1  a {
+	display: ;
+	height: 350px;
+	position: relative;
+}
+
+.text {
+	/*position: absolute;
+	bottom: 0;
+	padding: 20px;
+}
+
+.text h3, .text p {
+	color: #fff;
+	margin: 0;
+}
+
+.overlay {
+	background-color: rgba(35, 31, 32, 0.5);
+	width: 100%;
+	height: 350px;
+	transition: all .25s ease-in-out;-moz-transition: all .25s ease-in-out;-webkit-transition: all .25s ease-in-out; 
+
+}
+
+a:hover .overlay{
+	width: 100%;
+	background-color: rgba(237, 111, 76, 0.9);
+}
+
+ a:hover .text h3 {
+
+}*/
+
+
+/* 
+colors scheme
+	--Tema dolphins -- mas fuerte
+
+		#0091A0 --> turquesa---1
+		#FF8500 --> orange-----2
+		#002760 --> nayvy blue-3
+
+	--Tema dolphins
+
+		#008E97 --> aqua-------4
+		#F58220 --> orange-----5
+		#005778 --> blue-------6
+
+	Tema de Colores Azules
+	
+		#192B38 --> fuerte-----7
+		#22424B -->------------8
+		#2E5458 --> medio------9
+		#4E7367 -->------------10
+		#7FA68C --> claro------11
+	
+	Tema de colores variado
+	
+		#f58220 --> naranja----12
+		#005778 --> azul-------13
+		#008e97 --> turquesa---14
+		#3c6464 --> verde------15
+		#737F7F --> gris-------16
+		#264040 --> verdechido-17
+		#474F4F --> grisfuerte-18
+
