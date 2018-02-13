@@ -9,3 +9,7 @@
   #section4 {padding-top:50px;height:500px;color: #fff; background-color: #00bcd4;}
 
   #section5 {padding-top:50px;height:500px;color: #fff; background-color: #009688;}
+  
+  .container-fluid{
+    background-attachment: fixed;
+  }
