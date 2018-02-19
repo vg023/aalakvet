@@ -3,13 +3,13 @@ $(document).ready(function(e){
       slidesToShow:1,
       infinite:true,
       autoplay: true,
-      autoplaySpeed:5000,
+      autoplaySpeed:7000,
       dots: true,
       arrows: true,
       fade:true
     });
     $('.slider').on('click', function(event, slick, direction){
-      $(this).find()
+
   // left
 });
 
