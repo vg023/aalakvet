@@ -1,22 +1,49 @@
 body {
+	.slider-wrap{
+		position: relative;
+		.slider{
+			.slider-data{
+				height: 100vh;
+				position: relative;
+				.img-slide-main{
 
-
-
-
-
-
-
+				}
+				.slidermask{
+					position: absolute;
+					top: 50%;
+					width: 100%;
+					background:rgba(#008E97, 0.7);
+					text-align: center;
+					h3{
+						color: white;
+						text-transform: uppercase;
+					}
+					p{
+						color: orange;
+						text-transform:capitalize;
+						font-weight: bold;
+					}
+				}
+			}
+		}
+		.icono-down{
+			position: absolute;
+    	bottom: 0;
+  	  left: 50%;
+    	transform: translate(-50%, -50%);
+			.fa-angle-down{
+			}
+		}
+	}
 }
-
-
 
 div {
 	margin: 0;
     padding: 0;
+
     border: 0;
     font-size: 100%;
 }
-
 
 .parallax {
 	color: #FF8500;
@@ -25,7 +52,7 @@ div {
 	/* The image used */
 	background-image: url('../image/48.jpg');
 	/* Full height */
-	height: 50%; 
+	height: 50%;
 	/* Create the parallax scrolling effect */
 	background-attachment: fixed;
 	background-position: center;
@@ -34,7 +61,7 @@ div {
 
 }
 
-/* Turn off parallax scrolling for tablets and phones. Increase the pixels if needed */
+
 @media only screen and (max-device-width: 300px) {
 	.parallax {
 	background-attachment: scroll;
@@ -52,7 +79,7 @@ div {
 
 .container1 {
 	padding: 0;
-	border: 0;
+	border: 20;
 	margin: 0;
 }
 
@@ -68,12 +95,10 @@ div {
 	transition: .5s ease-in-out;
 	-webkit-transition: .5s ease-in-out;
 	background-color: #F58220;
-	
+
 }
 
-.container1:hover .overlay , .container1:focus .overlay{
-	opacity: 0.92;
-}
+
 
 .text{
 	color: #fff;
@@ -86,21 +111,14 @@ div {
 	-ms-transform:translate(-50%,-50%);
 }
 
-.servicios {
-
-}
-
 .servicios h1 {
 
 	border-bottom: 6px;
-	border-bottom-style: solid; 
-	border-bottom-color: #0091A0; 
+	border-bottom-style: solid;
+	border-bottom-color: #0091A0;
 }
 .container-fluid{
   height: 600px;
   background-attachment: fixed !important;
   background-size: 600px !important;
 }
-
-
-
