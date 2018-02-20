@@ -58,6 +58,9 @@ body #section1 {
   body #section1 .jumbotron p {
     font-size: 2rem; }
 
+body #section5 .ubicacion ul {
+  list-style: none; }
+
 div {
   margin: 0;
   padding: 0;
