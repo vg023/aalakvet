@@ -4,6 +4,7 @@ $azul : #005778;
 body {
 	.slider-wrap{
 		position: relative;
+		overflow-x: hidden;
 		.slider{
 			margin-bottom: 0;
 			.slick-dots{
@@ -64,7 +65,30 @@ body {
     	bottom: 0;
   	  left: 50%;
     	transform: translate(-50%, -50%);
+			border: 1px solid white;
+			border-radius: 100%;
+			width: 1rem;
+			height: 1rem;
+			line-height: 1rem;
+			text-align: center;
 			.fa-angle-down{
+				color: white;
+				font-size: 1rem;
+			}
+		}
+	}
+	#section1{
+		height: 100vh;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		background: $verde;
+		.jumbotron{
+			h1{
+				font-size: 3rem;
+			}
+			p{
+				font-size: 2rem;
 			}
 		}
 	}
@@ -150,6 +174,5 @@ div {
 	border-bottom-color: #0091A0;
 }
 .container-fluid{
-  background-attachment: fixed !important;
-  background-size: 600px !important;
+
 }

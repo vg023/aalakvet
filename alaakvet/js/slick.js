@@ -6,11 +6,7 @@ $(document).ready(function(e){
       autoplaySpeed:7000,
       dots: true,
       arrows: true,
+      pauseOnHover:false,
       fade:true
     });
-    $('.slider').on('click', function(event, slick, direction){
-
-  // left
-});
-
 });

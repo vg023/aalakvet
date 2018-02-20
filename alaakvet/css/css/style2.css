@@ -1,5 +1,6 @@
 body .slider-wrap {
-  position: relative; }
+  position: relative;
+  overflow-x: hidden; }
   body .slider-wrap .slider {
     margin-bottom: 0; }
     body .slider-wrap .slider .slick-dots {
@@ -35,7 +36,27 @@ body .slider-wrap {
     position: absolute;
     bottom: 0;
     left: 50%;
-    transform: translate(-50%, -50%); }
+    transform: translate(-50%, -50%);
+    border: 1px solid white;
+    border-radius: 100%;
+    width: 1rem;
+    height: 1rem;
+    line-height: 1rem;
+    text-align: center; }
+    body .slider-wrap .icono-down .fa-angle-down {
+      color: white;
+      font-size: 1rem; }
+
+body #section1 {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #008E97; }
+  body #section1 .jumbotron h1 {
+    font-size: 3rem; }
+  body #section1 .jumbotron p {
+    font-size: 2rem; }
 
 div {
   margin: 0;
@@ -99,7 +120,3 @@ div {
   border-bottom: 6px;
   border-bottom-style: solid;
   border-bottom-color: #0091A0; }
-
-.container-fluid {
-  background-attachment: fixed !important;
-  background-size: 600px !important; }
