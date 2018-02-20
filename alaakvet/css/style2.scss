@@ -1,7 +1,40 @@
+$verde : #008E97;
+$naranja : #F58220;
+$azul : #005778;
 body {
 	.slider-wrap{
 		position: relative;
 		.slider{
+			margin-bottom: 0;
+			.slick-dots{
+				top: 0 !important;
+				bottom: 0 !important;
+				height: 3rem;
+				li:nth-child(1){
+					button{
+						&:before{
+							color:$verde;
+							font-size: 1.5rem;
+						}
+					}
+				}
+				li:nth-child(2){
+					button{
+						&:before{
+							color:$naranja;
+							font-size: 1.5rem;
+						}
+					}
+				}
+				li:nth-child(3){
+					button{
+						&:before{
+							color:$azul;
+							font-size: 1.5rem;
+						}
+					}
+				}
+			}
 			.slider-data{
 				height: 100vh;
 				position: relative;
@@ -16,7 +49,7 @@ body {
 					text-align: center;
 					h3{
 						color: white;
-						text-transform: uppercase;
+						text-transform:uppercase;
 					}
 					p{
 						color: orange;
@@ -73,7 +106,6 @@ div {
 	color: #fff;
 	padding: 18px;
 	font-size: 25px;
-	letter-spacing: 10px;
 }
 
 
