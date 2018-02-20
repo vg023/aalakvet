@@ -103,14 +103,6 @@ body {
 	}
 }
 
-div {
-	margin: 0;
-    padding: 0;
-
-    border: 0;
-    font-size: 100%;
-}
-
 .parallax {
 	color: #FF8500;
 	position: relative;
@@ -126,7 +118,6 @@ div {
 	background-size: cover;
 
 }
-
 
 @media only screen and (max-device-width: 300px) {
 	.parallax {

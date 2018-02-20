@@ -14,7 +14,7 @@ $(document).ready(function(e){
         .to($slider,1,{x:0},2)
         .to($slider,1,{y:-50},3)
         .to($slider,1.5,{ease:Bounce.easeOut, y:0});
-        TweenLite.delayedCall(6,flecha);
+        TweenLite.delayedCall(7,flecha);
         function flecha() {
         var tween = TweenMax.fromTo($flecha, 2,
      		  {
