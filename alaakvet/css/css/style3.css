@@ -8,7 +8,7 @@ body .slider-wrap {
   position: relative;
   overflow-x: hidden; }
   body .slider-wrap .slider {
-    margin-bottom: 1; }
+    margin-bottom: 0; }
     body .slider-wrap .slider .slick-dots {
       top: 0 !important;
       bottom: 0 !important;
