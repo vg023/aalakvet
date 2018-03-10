@@ -1,5 +1,6 @@
 $verde : #008E97;
 $naranja : #F58220;
+
 $azul : #005778;
 body {
   h1{
@@ -12,7 +13,7 @@ body {
 		position: relative;
 		overflow-x: hidden;
 		.slider{
-			margin-bottom: 0;
+			margin-bottom: 1;
 			.slick-dots{
 				top: 0 !important;
 				bottom: 0 !important;
@@ -184,8 +185,6 @@ body {
 	background-color: #F58220;
 
 }
-
-
 
 .text{
 	color: #fff;
