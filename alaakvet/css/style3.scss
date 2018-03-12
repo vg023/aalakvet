@@ -1,6 +1,5 @@
 $verde : #008E97;
 $naranja : #F58220;
-
 $azul : #005778;
 body {
   h1{
@@ -30,7 +29,7 @@ body {
 				li:nth-child(2){
 					button{
 						&:before{
-							color:$naranja;
+							color:$verde;
 							font-size: 1.5rem;
 						}
 
