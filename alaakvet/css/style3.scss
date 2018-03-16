@@ -1,5 +1,5 @@
 $verde : #008E97;
-$naranja : #F58220;
+$naranja : #F58221;
 $azul : #005778;
 body {
   h1{
@@ -115,7 +115,15 @@ body {
 			}
 			.row{
 				.servicios{
+          .servicio-titulo{
 
+          }
+          .servicio-conte{
+
+          }
+          .visible{
+            opacity: 0;
+          }
 				}
 			}
 		}
